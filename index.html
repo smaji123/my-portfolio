@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#">Sayan</a>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+               <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- home-->
+    <section class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col60">
+            <div class="content1">
+              <h2>Hi, I'm Sayan Maji Html web developer</h2>
+
+              <div class="contactbtn">
+                <a href="#" class="cmn-btn">Contact</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col40">
+            <div class="content2">
+              <img src="image/Sayan formal pic.png" alt="Sayanmaji" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col60">
+            <div class="about1">
+              <img src="image/Sayan formal pic.png" alt="Sayanmaji" />
+            </div>
+          </div>
+
+          <div class="col40">
+            <div class="about2">
+              <h3>I'm Sayan Maji</h3>
+              <p>
+                Frontend & WordPress Developer with hands-on experience in
+                building responsive and user friendly websites using WordPress,
+                Elementor, Astra Theme, HTML5, CSS3, Bootstrap, and JavaScript.
+                Skilled in converting Figma/PSD designs into responsive
+                WordPress websites, customizing themes, and deploying projects
+                on live hosting environments. Passionate about clean UI,
+                responsive design, and continuous learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+
+    <section class="skills">
+       
+           <div class="container">
+
+             <h3>Skills</h3>
+                   <div class="row">
+                         <div class="col60">
+                                <div class="skills1">
+                                      <ul class="links">
+                                            <li>HTML5</li>
+                                            <hr>
+                                            <li>CSS3</li>
+                                            <hr>
+                                            <li>Bootstrap</li>
+                                            <hr>
+                                            <li>Tailwind</li>
+                                            <hr>
+                                            <li>Javascript</li>
+                                            <hr>
+                                            <li>Responsive web design</li>
+                                            <hr>
+                                            <li>HTML email template</li>
+                                            <hr>
+                                            <li>Wordpress</li>
+                                      </ul>
+                                </div>
+                         </div>
+
+                         <div class="col40">
+                               <div class="skillsimg">
+                                    <img src="image/programmng-language.webp" alt="skills">
+                               </div>
+                         </div>
+                   </div>
+           </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+          <h3>Contact me:+91-7001586568</h3>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+          <h3>Sayan Maji</h3>
+          <ul class="footerlinks">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+    </footer>
+
+    <script>
+          let navlinks = document.getElementById('nav-links');
+          let hamburger = document.getElementById('hamburger');
+          hamburger.addEventListener('click',()=>{
+             navlinks.classList.toggle('show');
+          })
+    </script>
+  </body>
+</html>
